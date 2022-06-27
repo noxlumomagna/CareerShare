@@ -1,29 +1,12 @@
-# resume-builder
-
-resume-builder developed and build with **React (v17.0.2)**, **JavaScript**, **jspdf(^2.5.1)**, **kendo-react-pdf(^5.3.0)** and **React Router v6**. For Styles, is used **CSS**.
-
-# Features
-
-* Responsive layout
-* React Hooks
-* React Context
-* React Router v6
-* PDFEXPORT
-* Modern and various Template
-* Great Templates style
-* Bootstrap icon
-
+# Career-share
 
 # Pages
 
-* home
+* Home
 * Templates
 * Build
 * Download Page
-* Getting-started
 * About
-* 404 Error(not found)
-
 
 # Getting Started
 
@@ -34,7 +17,6 @@ This will install both run-time project dependencies and developer tools listed 
 **2. Run `npm start` or `yarn install`**
 
 Runs the app in the development mode.
-
       
 **3. Run `npm build` or `yarn build`**
 
