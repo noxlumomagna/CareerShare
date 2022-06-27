@@ -1,0 +1,65 @@
+.a4{
+    width: 595px;
+    min-height: 842px;
+}
+.main-container{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+}
+.template .location{
+    text-transform: capitalize;
+}
+.template .normal-text,
+.template .normal-paragraph{
+    font-size: 10px;
+    font-weight: 400;
+    margin-bottom: 7px;
+    display: flex;
+    align-items: center;
+}
+.template .normal-title{
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+.template .normal-paragraph{
+    font-size: 12px;
+    margin-left: 5px;
+}
+.template h1{
+    font-size: 25px;
+    line-height: 28px;
+}
+.template .subtitle h2{
+    font-size: 14px;
+    line-height: 19px;
+}
+.template  h1, .template  h2{
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.template .mb-5{
+    margin-bottom: 5px !important;
+}
+.template .skill-list{
+    margin-left: 4px;
+    font-size: 12px;
+    font-weight: 400;
+    fill: #fff;
+    text-transform: capitalize;
+    list-style: none;
+}
+.template .skill-list li{
+    display: flex;
+    margin-bottom: 3px;
+    align-items: center;
+    justify-content: flex-start;
+}
+.template svg{
+    margin-right: 6px;
+    width: 12px;
+}
+

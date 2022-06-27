@@ -1,0 +1,51 @@
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #2d71c3;
+    animation-name: top-bottom-animate;
+    animation-duration: .4s;
+    min-height: 100vh;
+}
+.intro{
+    margin-top: 50px;
+    max-width: 700px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    padding-bottom: 85px;
+} 
+.intro h2{ 
+    font: 600 46px/50px Montserrat,Arial,sans-serif;
+    font-family: Montserrat,Arial,sans-serif;
+    margin-bottom: 20px;
+    margin-top: 0;
+    color: #fff;
+}
+.intro button{
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    padding: 15px 40px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #0a0a0a;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+.intro button:hover{
+    background-color: #000000;
+}
+@media (max-width: 768px){
+    .intro h2{
+        font-size: 35px;
+        padding: 10px ;
+    }
+    .intro button{
+        padding: 8px 20px;
+        font-size: 18px;
+    }
+}
+

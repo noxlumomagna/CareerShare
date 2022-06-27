@@ -1,0 +1,245 @@
+.download-resume {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #edf1f3;
+    min-height: 100vh;
+}
+
+/* edit panel */
+.download-resume .edit-panel {
+    padding: 20px;
+    margin: 0 30px;
+    margin-top: 30px;
+    height: 100%;
+    min-width: 200px;
+    background-color: #fff;
+    text-align: center;
+
+}
+.download-file{
+    position: absolute;
+    bottom: 500vh;
+}
+.edit-menu {
+    visibility: hidden;
+    position: absolute;
+    top: 130px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: #00c293;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 25px;
+}
+
+.edit-panel .button-container button {
+    min-width: 140px;
+    min-height: 40px;
+    margin: 0 10px 10px 10px;
+    cursor: pointer;
+    background-color: #00429f;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #fff;
+    padding: 10px 15px;
+
+}
+
+.edit-panel .button-container button:hover {
+    background-color: #006ec2;
+}
+
+
+
+/* styling panel */
+
+.download-resume .style-panel {
+    margin: 0 30px;
+    margin-top: 30px;
+    min-width: 210px;
+}
+
+.download-resume .document-preview {
+    margin: 0 auto;
+    margin-top: 30px;
+    box-shadow: 1px 1px 46px 10px rgba(0, 0, 0, 0.25);
+    height: min-content;
+}
+
+.download-resume .change-template {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ebebeb;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    animation-name: top-bottom-animate;
+    animation-duration: .9s;
+    animation-delay: .1s;
+}
+
+.download-resume .choose-template {
+    background: #004ec2;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.3;
+    padding: 12px 15px;
+    border: none;
+    outline: none;
+    justify-self: center;
+    text-align: center;
+    border-radius: 3px;
+    width: 100%;
+}
+
+.choose-template:hover {
+    background-color: #0268ce;
+}
+
+.download-resume .styling-component {
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 5px 20px;
+
+}
+
+.download-resume .color-component {
+    animation-name: right-to-left;
+    animation-duration: .9s;
+}
+
+.download-resume .font-component {
+    animation-name: bottom-top-animate;
+    animation-duration: .9s;
+}
+
+/* templatess container */
+.style-panel .change-templates-container {
+    height: 100%;
+    position: fixed;
+    right: 0;
+    width: 500px;
+    background-color: #fff;
+    top: 0;
+    bottom: 0;
+    transform: translateX(200vh);
+    transition: transform 0.4s ease-out;
+    z-index: 1000;
+}
+
+.style-panel .change-templates-container .header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 25px 30px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+.change-templates-container .header h3 {
+    margin-top: 5px;
+}
+
+.change-templates-container .header span {
+    cursor: pointer;
+    color: #000;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.change-templates-container .header span:hover {
+    color: red;
+}
+
+
+.change-templates-container .templates-gallery {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.change-templates-container .template-container .templates-gallery .template-item {
+    cursor: pointer;
+    position: relative;
+    width: 220px;
+    height: 275px;
+    background-color: #ddd;
+    margin: 10px;
+}
+
+.change-templates-container .template-container .templates-gallery .template-item:hover {
+    background-color: #00c293;
+}
+
+.change-templates-container .templates-gallery .template-item .template {
+    position: absolute;
+    transform: scale(.3);
+    top: -285px;
+    left: -187px;
+
+}
+
+/* responsive */
+
+@media(max-width: 768px) {
+    .style-panel .change-templates-container {
+        width: 100%;
+    }
+
+    .download-resume {
+        flex-direction: column;
+    }
+
+    .download-resume .style-panel .panel-container div {
+        margin: auto;
+    }
+
+    .document-preview {
+        transform: scale(.5);
+        margin-top: -170px !important;
+        margin-left: -100px;
+    }
+}
+
+@media(max-width:500px) {
+    .document-preview {
+        margin-left: -80px !important;
+        margin-top: -160px !important;
+    }
+    .download-resume .style-panel{
+        margin-top: -110px;
+    }
+}
+
+@media(max-width:390px) {
+    .document-preview {
+        margin-left: -130px !important;
+        margin-top: -170px !important;
+    }
+    .download-resume .style-panel{
+        margin-top: -140px;
+    }
+}
+@media(max-width:360px) {
+    .document-preview {
+        transform: scale(.45);
+        margin-left: -160px !important;
+        margin-top: -210px !important;
+    }
+    .download-resume .style-panel{
+        margin-top: -170px;
+    }
+}

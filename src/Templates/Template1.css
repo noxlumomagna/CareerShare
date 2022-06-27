@@ -1,0 +1,87 @@
+
+.template1{
+    display: flex;
+    position: relative;
+    background-color: #fff;
+    min-height: 842px!important;
+}
+.template1 .container-A{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 15px;
+    width: 30%;
+    background-color: var(--backgroundColor);
+}
+.template1 .container-A h1,
+.template1 .container-A h2,
+.template1 .container-A p,
+.template1 .container-A li{
+    color: #fff !important;
+}
+.template1 svg{
+    margin-right: 600px;
+    width: 15px;
+}
+.template1 .section h2{
+    font-size : 18px;
+}
+.template1 .container-B{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 80px;
+    width: 65%;
+    height: max-content;
+    background-color: #fff;
+
+}
+.template1 .mb-5{
+    margin-bottom: 5px !important;
+}
+.template1 .experience-container{
+    margin-bottom: 15px;
+}
+.template1 .profile-picture{
+    position: absolute;
+    top: 15px;
+    left: 37px;
+    width: 130px;
+    height: 130px;
+    border-radius: 100%;
+    z-index: 100;
+    overflow: hidden;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+
+}
+.template1 .profile-picture img{
+    width: 100%;
+    margin: auto;
+}
+.template1 .contact-name{
+    margin-top: 150px;
+}
+.template1 .section{
+    padding-bottom: 20px;
+}
+.template1 .container-B h2{
+    color: var(--color);
+    font-size: 17px;
+}
+
+.template1 .normal-title{
+    font-size: 13px;
+    letter-spacing: 2.2px;
+    font-weight: 400;
+    text-transform: uppercase;
+    display: block;
+}
+.template1 .normal-paragraph{
+    margin-bottom: 5px;
+}

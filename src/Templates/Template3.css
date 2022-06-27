@@ -1,0 +1,191 @@
+.template3 .main-container{
+    background-color: #002b34 !important;
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+}
+.template3 .main-container *{
+    font-family: inherit;
+}
+
+/* custuming text  */
+.template3 .main-container h2{
+    font-size: 15px !important;
+}
+.template3 .main-container p,
+.template3 .main-container h2,
+.template3 .main-container li{
+    color: #fff !important;
+    margin: 0;
+    font-family: inherit;
+}
+.template3 .main-container p{
+    font-size: 10px;
+    font-weight: 200;
+    margin-left: 2px;
+}
+.template3 .normal-title{
+    display: inline;
+    margin-bottom: 0;
+    margin-left: 2px;
+}
+.template3 .normal-text{
+    margin-bottom: 4px !important;
+
+}
+.template3 .profesion-summary .normal-paragraph{
+    margin-left: 0 !important;
+}
+.template3  .normal-paragraph{
+    margin-left: 20px !important;
+}
+.template3  .information-header{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.template3 .social-networks h2{
+    font-size: 12px!important;
+}
+
+/* end  custuming text  */ 
+.template3 .contact .image-container{
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.411);
+    width: 170px;
+    height: 170px;
+    display: flex;
+    margin-left: -35px;
+    margin-top: 5px;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(45deg);
+    overflow: hidden;
+    z-index: 1000;
+}
+
+.template3 .contact img{
+    width: 165px;
+    height: 165px;
+    z-index: 100;
+    transform: rotate(-45deg);
+}
+.template3 .image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    border: 10px solid;
+    width: 140px;
+    height: 140px;
+    border-radius: 25px;
+    transform: rotate(45deg);
+    background: transparent;
+    left: 19px;
+    top: 40px;
+    z-index: 101;
+    overflow: hidden;
+}
+.template3 .info-container{
+    position: relative;
+    margin: 0 30px;
+    padding-left: 185px;
+    min-height: 150px;
+}
+.template3 .contact{
+    min-height: 250px;
+}
+
+.template3 .info-container::after{
+    content: '';
+    width: 380px;
+    height: 1px;
+    background-color: #ddd;
+    position: absolute;
+    left: 160px;
+    bottom: -10px;
+    margin-bottom: 15px;
+
+}
+.template3 .info-container .info-section{
+    max-width: 350px;
+}
+.template3 .info-section .contact-name{
+    font-size: 17px;
+    margin-top: 30px;
+}
+.template3 .info-section .contact-name,
+.template3 .info-section .contact-info{
+    width: 50%;
+}
+.template3 .info-container .section{
+    margin-top: 30px;
+    padding-bottom: 10px;
+    margin-left: 10px;
+}
+.template3 .column{
+    position: absolute;
+    width: 100px;
+    height: 100%;
+    background-color: var(--backgroundColor);
+    opacity: 0.9;
+    z-index: 10;
+    left: 40px;
+    padding: 20px 0;
+    overflow: hidden;
+}
+.template3 .info-container .contact-information{
+    padding-top: 15px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.template3 .contact-information .contact-name{
+    padding-right:15px ;
+}
+.template3 .profesion-summary{
+    padding-bottom: 20px;
+}
+.template3 .section-label{
+    background-color: var(--backgroundColor);
+    position: absolute;
+    left: 22px;
+    width: 160px;
+    font-size: 12px;
+    font-weight: 700;
+    text-align: left;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    top: 10px;
+    border-top-right-radius: 50px;
+    z-index: 100
+}
+.template3 .skills .section-label h2{
+    padding-left: 20px;
+}
+.template3 .section-label .top-shadow{
+    content: "";
+    position: absolute;
+    top: -14px;
+    left: 6%;
+    margin-left: -11px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent #97979767 #8b8b8b69 transparent;
+    transform: scaleY(0.4) scaleX(.95);
+}
+.template3 .section-label .bottom-shadow{
+    content: "";
+    position: absolute;
+    bottom: -17px;
+    left: 44%;
+    margin-left: -12px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: #97979771 #8b8b8b70 transparent transparent;
+    transform: scaleY(0.7) scaleX(5);
+}
